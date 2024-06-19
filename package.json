@@ -47,4 +47,11 @@
   "devDependencies": {
     "tailwindcss": "^3.2.4"
   }
+  {
+  "presets": [
+    "@babel/preset-env",
+    ["@babel/preset-react", { "runtime": "automatic" }]
+  ]
+}
+
 }
